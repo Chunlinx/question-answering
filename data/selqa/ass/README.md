@@ -53,6 +53,5 @@ For each `[split]`, the following files can be found:
 
 ## Contact
 
-Should you have any question please contact the author:
-
+Should you have any question please contact the author:  
 tomasz.jurczyk@emory.edu
