@@ -1,4 +1,4 @@
-# SelQA - Answer Sentence Selection data set
+# SelQA - Answer Sentence Selection
 
 ## Introduction
 
@@ -6,13 +6,11 @@ This repository contains a data set that has been described in:
 
 __SelQA: A New Benchmark for Selection-based Question Answering__. *Jurczyk, T.; Zhai, M.; and Choi, J. D.*. In Proceedings of the 28th International Conference on Tools with Artificial Intelligence, of ICTAI'16, San Jose, CA, 2016. 
 
-------------------
 
 ## Data set
 
 Data can be downloaded here: http://www.mathcs.emory.edu/~tjurczy/selqa/ass/
 
-------------------
 
 ## Description
 
