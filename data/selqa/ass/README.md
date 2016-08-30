@@ -15,7 +15,7 @@ In Proceedings of the 28th International Conference on Tools with Artificial Int
 
 ## Data set
 
-Data can be downloaded here: http://www.mathcs.emory.edu/~tjurczy/selqa/ass/
+Data can be downloaded here: http://www.mathcs.emory.edu/~tjurczy/selqa/selqa_ass.zip
 
 
 ## Description
