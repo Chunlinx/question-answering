@@ -2,9 +2,15 @@
 
 ## Introduction
 
-This repository contains a data set that has been described in:
+GitHub repository: https://github.com/emorynlp/question-answering/edit/master/data/selqa/ass/  
 
-__SelQA: A New Benchmark for Selection-based Question Answering__. *Jurczyk, T.; Zhai, M.; and Choi, J. D.*. In Proceedings of the 28th International Conference on Tools with Artificial Intelligence, of ICTAI'16, San Jose, CA, 2016. 
+This repository contains a data set that has been described in:  
+
+```
+SelQA: A New Benchmark for Selection-based Question Answering.  
+Jurczyk, T.; Zhai, M.; and Choi, J. D.  
+In Proceedings of the 28th International Conference on Tools with Artificial Intelligence, of ICTAI'16, San Jose, CA, 2016. 
+```
 
 
 ## Data set
