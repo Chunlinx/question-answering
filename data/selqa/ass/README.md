@@ -1,19 +1,20 @@
-## SelQA - Answer Sentence Selection data set
+# SelQA - Answer Sentence Selection data set
 
-### Introduction
-------------------
+## Introduction
 
 This repository contains a data set that has been described in:
 
 __SelQA: A New Benchmark for Selection-based Question Answering__. *Jurczyk, T.; Zhai, M.; and Choi, J. D.*. In Proceedings of the 28th International Conference on Tools with Artificial Intelligence, of ICTAI'16, San Jose, CA, 2016. 
 
-### Data set
 ------------------
+
+## Data set
 
 Data can be downloaded here: http://www.mathcs.emory.edu/~tjurczy/selqa/ass/
 
-### Description
 ------------------
+
+## Description
 
 The package contains three splits: train, development and test sets.
 For each split, the following files can be found:
@@ -44,8 +45,9 @@ For each split, the following files can be found:
 
 - *SelQA-ass-[split]_dep.txt* - a text file that contains raw dependency trees of all samples in each `[split]`. __Note__: First question's tree is followed by the trees of its sentences, which is follwed by the second question's tree, which is followed by the trees of its sentences etc...
 
-### Contact
 ------------------
+
+## Contact
 
 Should you have any question please contact the author:
 
