@@ -38,7 +38,7 @@ For each `[split]`, the following files can be found:
   * `section` - name of the Wikipedia section the `question` is about
   * `sections` - list of section entities (five for each question, this is what makes this task Answer Triggering)
 
- Each of `sections` entity contains the following elements:
+ Each entity of `sections` contains the following elements:
   * `article` - name of the Wikipedia article the `section` is from
   * `section` - name of the Wikipedia section in this `article`
   * `sentences` - set of sentences (simply sentences of the given `section`) for this `section`
