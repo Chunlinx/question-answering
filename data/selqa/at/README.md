@@ -36,7 +36,7 @@ For each `[split]`, the following files can be found:
   * `type` - genera of the `question` (generas: `set(['MUSIC', 'TV', 'TRAVEL', 'ART', 'SPORT', 'COUNTRY', 'MOVIES', 'HISTORICAL EVENTS', 'SCIENCE', 'FOOD'])`)
   * `article` - name of the Wikipedia article the `question` is about
   * `section` - name of the Wikipedia section the `question` is about
-  * `sections` - list of section entities (5 for each question, this is what makes this task Answer Triggering)
+  * `sections` - list of section entities (five for each question, this is what makes this task Answer Triggering)
 
  Each of `sections` entity contains the following elements:
   * `article` - name of the Wikipedia article the `section` is from
@@ -44,7 +44,7 @@ For each `[split]`, the following files can be found:
   * `sentences` - set of sentences (simply sentences of the given `section`) for this `section`
   * `candidates` - set of sentence indexes that provide the answer for given `question` in this `section`
 
- Please note that this is Answer Triggering data set. It implies that the answer is not necessarily present among all the candidates from all 5 sections. Thus, some question will have all `candidates` empty for all five elements in `sections`. In fact, the majority of questions (~60%) does not have corresponding candidates among all its sentences (more details on that in the paper).
+ Please note that this is Answer Triggering data set. It implies that the answer is not necessarily present among all the candidates from all five sections. Thus, some question will have all `candidates` empty for all five elements in `sections`. In fact, the majority of questions (~60%) does not have corresponding candidates among all its sentences (more details on that in the paper).
 
 
 - *SelQA-at-[split]_analysis.pickle* - a pickle file contains useful information that might be used for analysis such as question length, sections length etc. Each pickle is a list of dictionaries, where each dictionary is a single question entity. In the dictionary, the following elements can be found:
