@@ -40,11 +40,11 @@ For each `[split]`, the following files can be found:
 
  Each entity of `sections` contains the following elements:
   * `article` - name of the Wikipedia article this `section` entity is from
-  * `section` - name of the Wikipedia section of this entity
-  * `sentences` - set of sentences (simply sentences of the given `section`) for this `section`
-  * `candidates` - set of sentence indexes that provide the answer for given `question` in this `section`
+  * `section` - name of the Wikipedia section of this `section` entity
+  * `sentences` - set of sentences of this `section` entity
+  * `candidates` - set of sentence indexes that provide the answer for given `question` in this `section` entity
 
- Please note that this is Answer Triggering data set. It implies that the answer is not necessarily present among all the candidates from all five sections. Thus, some question will have all `candidates` empty for all five elements in `sections`. In fact, the majority of questions (~60%) does not have corresponding candidates among all its sentences (more details on that in the paper).
+ Please note that this is Answer Triggering data set. It implies that the answer is not necessarily present among all the candidates from all five sections. Thus, some question will have all `candidates` empty for all five entities in `sections` list. In fact, the majority of questions (~60%) does not have corresponding candidates among all its sentences (more details on that in the paper).
 
 
 - *SelQA-at-[split]_analysis.pickle* - a pickle file contains useful information that might be used for analysis such as question length, sections length etc. Each pickle is a list of dictionaries, where each dictionary is a single question entity. In the dictionary, the following elements can be found:
